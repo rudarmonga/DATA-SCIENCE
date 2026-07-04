@@ -1,0 +1,33 @@
+# Environment variables
+.env
+**/.env
+
+# Python virtual environments
+.venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Chroma vector database
+RAG_Project/chroma-db/
+chroma-db/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
